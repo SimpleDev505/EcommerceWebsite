@@ -55,7 +55,7 @@ body{
 
 @font-face {
     font-family: Honey;
-    src: url('../Fonts/Honey Crepes.woff')format('truetype');
+    src: url('/Website/Fonts/Honey\ Crepes.woff')format('truetype');
 }
 .Break{
     margin: 0;
@@ -70,7 +70,7 @@ body{
     overflow: hidden;
     background-color:antiquewhite;
     height: 15px;
-    background-image: url('../Images/MainDisplay/texturemain2.jpg');
+    background-image: url('/Website/Images/MainDisplay/texturemain2.jpg');
     background-repeat: repeat;
     background-blend-mode :color-burn;
 
@@ -86,7 +86,7 @@ body{
  margin-top: 0;
  height: 35svh;
  background-color: #f9cc99;
- background-image: url('../Images/MainDisplay/texturemain.jpg');
+ background-image: url('/Website/Images/MainDisplay/texturemain.jpg');
  background-blend-mode: multiply;
  justify-content: center;
 }
@@ -137,14 +137,14 @@ body{
 }
 .card1{
     grid-column: 1/ span 2;
-    background-image: url('Images/Cards/Watches.png');
+    background-image: url('/Website/Images/Cards/Watches.png');
     background-blend-mode: alpha;
     background-color: burlywood;
   
     background-repeat: no-repeat;
 }
 .card2{
-    background-image: url('Images/Cards/Clothes.png');
+    background-image: url('/Website/Images/Cards/Clothes.png');
     background-blend-mode: alpha;
     background-size: 200px;
     background-color:aquamarine;

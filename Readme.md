@@ -15,7 +15,7 @@ Hey there! This is my eCommerce website project that I've been working on. It's 
 
 ## Features
 
-- ### <font color="green">Create a visually appealing and functional shopping site.</font>
+- ### ![#c5f015]Create a visually appealing and functional shopping site.
 - ### Ensure a smooth and enjoyable user experience.
 - ### Implement secure and reliable payment processing.
 

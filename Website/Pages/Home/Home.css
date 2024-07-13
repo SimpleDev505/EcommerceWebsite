@@ -1,11 +1,80 @@
 body{
-    margin: 0;
+   margin: 0;
     padding: 0;
 }
 /* Layout */
+.Layout{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  grid-template-rows: 4svh 70svh 40svh repeat(3,1fr);
+  margin-left: 5svh;
+  margin-right: 5svh;
+}
+.Layout img{
+    width: 100%;
+    height: 100%;
+    max-width: 1000px;
+    max-height: 100%;
+    min-width: 1000px;
+    min-height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-top: 0;
+    object-fit: contain;
+    display: block;
+    object-position: 0% 0%;
+}
+.Top{
+    margin: 0;
+    padding: 0;
+    grid-row: 1;
+    margin-top: 1svh;
+}
+.Middle{
+    margin: 0;
+    padding: 0;
+    grid-row: 2;
+    background-color: rgb(172, 194, 235);
+    margin-top: 2svh;
+}
+.Bottom{
+    margin: 0;
+    padding: 0;
+    grid-row: 3;
+}
 
 /* Layout End */
 
 /* Nav */
+#nav{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    float: right;
+}
+#nav ul{
+    width: 100%;
+    height: 100%;
+    margin: 15px;
+}
+#nav li{
+    display: inline;
+    list-style-type: none;
+    margin-left: 45px;
+    float: right;
+    padding: 0;
+}
+#nav a{
+        text-decoration: none;
+        color: rgb(125, 125, 125);
+        font-size: 18px;
+        text-align: center;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 /* End Nav*/

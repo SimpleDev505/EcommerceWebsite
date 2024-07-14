@@ -1,7 +1,7 @@
 
 # Ecommerce Website
 
-#### Hey there! 👋 This is my <span style="color:yellow">eCommerce</span> website project that I've been working on. 🛒✨ It's built to offer a smooth and easy online shopping experience. 🖥️ I've used some of the latest web development tools and technologies to create a user-friendly interface, 💻 secure payment options, 💳 and a simple order management system. 📦 My goal is to make shopping online fun and hassle-free for everyone. 😄🛍️ Hope you like it! 🎉🚀
+#### Hey there! 👋 This is my ECommerce website project that I've been working on. 🛒✨ It's built to offer a smooth and easy online shopping experience. 🖥️ I've used some of the latest web development tools and technologies to create a user-friendly interface, 💻 secure payment options, 💳 and a simple order management system. 📦 My goal is to make shopping online fun and hassle-free for everyone. 😄🛍️ Hope you like it! 🎉🚀
 
 ## Technology Used
 

@@ -2,6 +2,9 @@ body{
    margin: 0;
     padding: 0;
 }
+:root{
+    --productdisplaysize:25svh;
+}
 /* Layout */
 .Layout{
   display: grid;
@@ -24,6 +27,7 @@ body{
     object-fit: contain;
     display: block;
     object-position: 0% 0%;
+    z-index: 1;
 }
 .Top{
     margin: 0;
@@ -86,3 +90,55 @@ body{
     font-family: fonta;
     src: url('/Website/Fonts/CHICKEN\ Pie.ttf');
 }
+/*Products */
+#display{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    margin-left: var(--productdisplaysize);
+    margin-right: var(--productdisplaysize);
+    justify-items: center;
+    margin-top: -5svh;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+    padding-top: 10svh;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    
+    
+}
+.card{
+    aspect-ratio:1/1;
+    width: var(--productdisplaysize);
+    height: var(--productdisplaysize);
+    gap: 5svh;
+    text-align: center;
+    align-content: center;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: .01rem;
+}
+.card p{
+    font-size: 18px;
+    font-family: fonta;
+    color: white;
+}
+.card button{
+    font-family: fonta;
+    font-size: 15px;
+}
+.card1{
+    background-color: #a27cf5;
+}
+.card2{
+    background-color: #a2b9cd;
+}
+.card3{
+    background-color: #f2527e;
+}
+.card4{
+    background-color: #df974e;
+}
+
+
+
+/*End Products */

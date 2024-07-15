@@ -9,7 +9,6 @@
  
 ![badge](https://img.shields.io/badge/css3-0091ff.svg?style=for-the-badge&logo=CSS3&logoColor=ffffff&labelColor=000000)
 
-![badge](https://img.shields.io/badge/JavaScript-ffdd00.svg?style=for-the-badge&logo=JavaScript&logoColor=ffffff&labelColor=000000)
 
 
 ## Features

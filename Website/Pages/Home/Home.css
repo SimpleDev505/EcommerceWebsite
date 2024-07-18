@@ -23,9 +23,34 @@ body{
     display: block;
     background: url('/Website/Images/MainDisplay/Main1_1.png') no-repeat right;
     background-size: 600px;
-    transform: scale(1);
+    /* animation: MainDisplayAnimation 12s infinite;
+    animation-timing-function: step-end; */
     /* background-position: 125svh -15svh; */
 }
+/* @keyframes MainDisplayAnimation{
+    0%{
+        opacity: 1;
+        background: url('/Website/Images/MainDisplay/Main1_1.png') no-repeat right;
+        background-size: 600px;
+        
+    }
+    50%{
+        background: url('/Website/Images/MainDisplay/Main2_1.png') no-repeat left;
+        background-size: 600px;
+        opacity: 1;
+    }
+    75%{
+        opacity: 0;
+    }
+    75%{
+        background: url('/Website/Images/MainDisplay/Main3_1.png') no-repeat right;
+        background-size: 600px;
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+} */
 /* .Layout img{
     width: 100%;
     height: 100%;
@@ -50,15 +75,34 @@ body{
     width: 100%;
     height: 100%;
     background-color: rgb(255, 255, 255);
+    box-shadow: 0px 5px 11px -3px rgba(0,0,0,0.37);
+    border-style: none;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 
 }
 .Middle{
     margin: 0;
     padding: 0;
+    margin-top: 3svh;
     grid-row: 2;
-    background-color: rgb(172, 194, 235);
+    background-color: #f5d55a;
     border-radius: 10px;
+    /* animation: MainDisplayColor 12s infinite;
+    animation-timing-function: step-end; */
 }
+/* @keyframes MainDisplayColor{
+    0%{
+        background-color: #78D3FD;
+        
+    }
+    50%{
+        background-color: #C4B3F2;
+    }
+    100%{
+        background-color: #cbea78;
+}
+} */
 .Bottom{
     margin: 0;
     padding: 0;
@@ -159,13 +203,20 @@ body{
 }
 .card{
     display: block;
-    align-content: center;
+    align-content:space-evenly;
     aspect-ratio:1/1;
     width:calc(var(--productdisplaysize)*1.4);
     height:var(--productdisplaysize);
     gap: 5svh;
     text-align: center;
     z-index: 5;
+    /* padding-right: 5svh;
+    padding-left: 5svh; */
+    border-style: none;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0px 5px 11px -3px rgba(0,0,0,0.37);
+
 
 }
 .card p{
@@ -185,7 +236,7 @@ body{
     font-size: 16px;
     border: solid;
     border-width: .05rem;
-    background-color: rgba(1, 1, 1, 0);
+    background-color: rgba(255, 255, 255, 0);
     margin-top: 60px;
     padding-left: 25px;
     padding-right: 50px;
@@ -199,7 +250,7 @@ body{
     transform: scale(2);
     -webkit-box-shadow: 0 10px 6px -6px #000000;
     -moz-box-shadow: 0 10px 6px -6px #000000;
-         box-shadow: 0 15px 6px -16px #000000;
+    box-shadow: 0 15px 6px -16px #000000;
 }
 .card:hover > p{
     transform: translateY(10svh);
@@ -290,13 +341,13 @@ body{
     position: relative;
     z-index: 10;
     width: 100%;
-    height: 80svh;
+    height: 148svh;
     padding: 0;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    margin-top: -80svh;
+    margin-top: -148svh;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -310,48 +361,51 @@ body{
     text-align: center;
     background: url('/Website/Images/Icons/SearchIcon.png') no-repeat left;
     background-size: 25px;
+    background-color: rgba(0, 0, 0, .1);
     background-blend-mode: color;
     background-position: 10px;
-    color:rgb(255, 255, 255);
+    color:#707070;
     font-family: fonta;
     font-size: 25px;
     border-radius: 15px;
     width: 80svh;
-    height: 5svh;
-    background-color: rgba(255, 255, 255, .4);  
-    backdrop-filter: blur(5px);
-    text-shadow: 2px 2px 5px #222;
+    height: 5svh; 
     
 }
 .Title{
+    display: flex;
     position: relative;
     z-index: 9;
-    width: 100%;
-    height: 110svh;
+    width: 60%;
+    height: 40%;
     padding: 0;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    margin-top: -110svh;
+    margin-top: -400px;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    align-content: center;
+    float: left;
 }
 .Title p{
-    font-size: 30px;
+    font-size: 45px;
     font-family: fonta;
-    color:#ffffff;
-    text-shadow: 2px 2px 25px #222;
-    -webkit-text-stroke: .02em #222;
+    color:#222;
+    opacity: .7;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 0;
+    padding-left: 10svh;
+    padding-right: 10svh;
 }
-#SearchBox:focus{
+/* #SearchBox:focus{
     background-color: rgba(255, 255, 255, .15);
     text-shadow: none;
-    color: #ffffff;
-}
+    color: #707070;
+} */
 /* End Search */
 /* Start MainDisplay */
 

@@ -9,7 +9,7 @@
  
 ![badge](https://img.shields.io/badge/css3-0091ff.svg?style=for-the-badge&logo=CSS3&logoColor=ffffff&labelColor=000000)
 
-
+<a href='https://github.com/shivamkapasia0' target="_blank"><img alt='Javascript' src='https://img.shields.io/badge/Javascript_-100000?style=for-the-badge&logo=Javascript&logoColor=F4CA2F&labelColor=151100&color=F4CA2F'/></a>
 
 ## Features
 
